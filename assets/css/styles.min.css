@@ -1,1 +1,92 @@
 .simple-slider .swiper-slide{height:500px;background-repeat:no-repeat;background-size:cover;background-position:center}.simple-slider .swiper-button-next,.simple-slider .swiper-button-prev{width:50px;margin-left:20px;margin-right:20px}@media (max-width:767px){.simple-slider .swiper-button-next,.simple-slider .swiper-button-prev{display:none}.simple-slider .swiper-slide{height:360px}}
+
+/* ========================================== */
+/* SAMADHI SOPAN PROMO STYLES                 */
+/* ========================================== */
+
+.samadhi-promo-box {
+    background: linear-gradient(135deg, #fffdf5 0%, #fff3cd 100%); /* Soft cream to light gold */
+    border: 2px solid #e6c27a; /* Soft golden border */
+    border-radius: 12px;
+    padding: 40px 20px;
+    margin: 30px 0;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.15);
+    overflow: hidden;
+    /* Gentle glowing animation for the box */
+    animation: softGlow 4s ease-in-out infinite alternate; 
+}
+
+@keyframes softGlow {
+    0% { box-shadow: 0 8px 25px rgba(212, 175, 55, 0.15); }
+    100% { box-shadow: 0 8px 35px rgba(212, 175, 55, 0.35); }
+}
+
+.promo-badge {
+    display: inline-block;
+    background: #d4af37; /* Elegant Gold */
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.promo-heading {
+    color: #5c4033; /* Deep spiritual brown */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.promo-subtext {
+    color: #6d5d4b;
+    font-size: 16px;
+    max-width: 650px;
+    margin: 0 auto 25px auto;
+    line-height: 1.6;
+}
+
+.btn-promo-listen {
+    background: linear-gradient(135deg, #ff9933 0%, #e67e22 100%); /* Saffron/Orange gradient */
+    color: #ffffff !important;
+    border: none;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(255, 153, 51, 0.4);
+    transition: all 0.3s ease;
+    /* Pulsing animation to draw attention */
+    animation: pulseBtn 2.5s infinite; 
+}
+
+.btn-promo-listen:hover {
+    background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 153, 51, 0.6);
+    text-decoration: none;
+    color: #ffffff !important;
+    animation: none; /* Stops pulsing when hovered for a cleaner feel */
+}
+
+@keyframes pulseBtn {
+    0% { box-shadow: 0 4px 15px rgba(255, 153, 51, 0.4); }
+    50% { box-shadow: 0 4px 25px rgba(255, 153, 51, 0.8); }
+    100% { box-shadow: 0 4px 15px rgba(255, 153, 51, 0.4); }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+    .promo-heading { font-size: 22px; }
+    .promo-subtext { font-size: 15px; }
+    .samadhi-promo-box { padding: 30px 15px; }
+    .btn-promo-listen { font-size: 16px; padding: 12px 30px; }
+}

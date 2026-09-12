@@ -1,0 +1,11 @@
+Replace the text in this file with the real transcript of
+"મૂળમાર્ગ-રહસ્ય" (The Secret of the Original Path), Chapter 1.
+
+Each blank line starts a new paragraph, exactly as it does here — so
+however you break the text into paragraphs in this file is how it will
+appear on the website's reading pane.
+
+This file is plain text, so it can be edited in Notepad, TextEdit, or
+any basic text editor. If you're typing in Gujarati, save the file as
+UTF-8 (most editors do this automatically) so the script renders
+correctly on the site.

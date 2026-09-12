@@ -1,0 +1,24 @@
+Put your converted audio here.
+
+After running convert-to-mp3.sh, you'll have a folder called
+"Samadhi Sopan MP3" containing sub-folders like:
+
+    16 Karan/
+    Das Lakshan/
+    Dharmadhyan/
+    Samadhi Maran/
+    SamyakDarshan 8 ang/
+    Samadhi - Antmangal.mp3
+
+Copy all of THOSE (the sub-folders and the one root file) directly into
+this "audio" folder, so you end up with:
+
+    audiobook/assets/audio/16 Karan/...
+    audiobook/assets/audio/Das Lakshan/...
+    audiobook/assets/audio/Dharmadhyan/...
+    audiobook/assets/audio/Samadhi Maran/...
+    audiobook/assets/audio/SamyakDarshan 8 ang/...
+    audiobook/assets/audio/Samadhi - Antmangal.mp3
+
+Then delete this text file — it's just a placeholder so the empty
+folder shows up when you unzip everything.
