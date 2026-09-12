@@ -44,13 +44,13 @@
   .player-more-body {
     padding-bottom: 0.5rem;
   }
-  
-  <style>
-  /* ... [existing CSS to hide transcript and settings] ... */
 
-  /* ========================================== */
-  /* FIX: Prevent mobile button wrapping        */
-  /* ========================================== */
+  /* 5. Hide the skip buttons completely */
+  .btn-skip {
+    display: none !important;
+  }
+
+  
   @media (max-width: 600px) {
     .player-transport {
       flex-wrap: nowrap !important; /* Forces all buttons to stay on one line */
@@ -75,8 +75,8 @@
       height: 64px !important;
       font-size: 1.5rem !important;
     }
+    
   }
-</style>
 </style>
 </head>
 <body>
